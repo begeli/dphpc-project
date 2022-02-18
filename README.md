@@ -1,4 +1,14 @@
 # Near-Optimal Parallel Tensor Contractions 
+We present a near communication optimal tensor contraction framework for parallel systems. 
+Previous frameworks primarily focus on computational optimizations. 
+Our contribution is to make use of a graph based analytical approach to perform I/O optimal contractions. 
+Our framework is capable of performing general tensor contractions, meaning that it can perform contractions with arbitrary number of tensors with arbitrary modes and dimensions.
+
+
+## Results
+Our framework was tested against state of the art tensor contraction framework, Cyclops Tensor Framework (CTF). We used matrix-matrix multiplication (MMM) and matricized tensor times Khatri-Rao product (MTTKRP) as our baseline operations. 
+* For MMM our framework transferred up to x4 lower bytes compared to CTF. 
+* For MTTKRP our framework transferred up to x6 lower bytes compared to CTF
 
 ## Project Setup
 Currently only importing into CLion is confirmed to work.
@@ -30,3 +40,8 @@ The file `main.py` can be run to test our code as well. It accepts several comma
 
 ## MPI
 Note that this project works only with MPICH, *not* with OpenMPI (truncated message errors).
+
+## Contributors 
+* Mihai Zorca
+* Daniel Trujillo
+* Berke Egeli
