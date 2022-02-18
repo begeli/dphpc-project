@@ -1,0 +1,3 @@
+ijk,jl,kl->il
+ikb,kj->ij
+pi,qj,ijkl,rk,sl->pqrs

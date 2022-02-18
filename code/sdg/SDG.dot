@@ -1,0 +1,9 @@
+digraph  {
+out0_1 [st=<soap.SOAP.SOAP_statement object at 0x7fa52ef32610>, transient=False];
+inp1_0 [transient=False];
+inp0_0 [transient=False];
+out0_0 [transient=False];
+inp1_0 -> out0_1  [base_access="j*k", key=0, label="[j,k] {(0, 0)}", offsets=<class 'soap.SOAP.params'>, wcr=False];
+inp0_0 -> out0_1  [base_access="i*j", key=0, label="[i,j] {(0, 0)}", offsets=<class 'soap.SOAP.params'>, wcr=False];
+out0_0 -> out0_1  [base_access="i*k", key=0, label="[i,k] {(0, 0)}*", offsets=<class 'soap.SOAP.params'>, wcr=True];
+}

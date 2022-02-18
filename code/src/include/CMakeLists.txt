@@ -1,0 +1,10 @@
+set(ASL_SOURCES
+        ${ASL_SOURCES}
+        ${CMAKE_CURRENT_SOURCE_DIR}/data_reader.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/LocalData.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/metadata.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/MultiIndex.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/ptc.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/TensorView.cpp
+        PARENT_SCOPE
+)

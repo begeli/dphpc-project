@@ -1,0 +1,5 @@
+The four .cmake files in this folder were taken as-is
+from a previous lab course "Systems Programming in C++"
+at the Technical University of Munich.
+
+Credit goes to Moritz Sichert & Michael Freitag
