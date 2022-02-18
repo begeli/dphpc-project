@@ -9,6 +9,7 @@ Our framework is capable of performing general tensor contractions, meaning that
 Our framework was tested against state of the art tensor contraction framework, Cyclops Tensor Framework (CTF). We used matrix-matrix multiplication (MMM) and matricized tensor times Khatri-Rao product (MTTKRP) as our baseline operations. 
 * For MMM our framework transferred up to x4 lower bytes compared to CTF. 
 * For MTTKRP our framework transferred up to x6 lower bytes compared to CTF
+Also, out framework is capable of scaling up to 1000 processors.
 
 ## Project Setup
 Currently only importing into CLion is confirmed to work.
